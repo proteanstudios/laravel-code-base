@@ -16,9 +16,8 @@ class ServiceProvider extends IlluminateServiceProvider
      */
     public function boot()
     {
-        if ($this->app->runningInConsole()) {
-            $this->registerCommands();
-        }
+        $this->registerCommands();
+        $this->configurePublishing();
     }
 
     /**
