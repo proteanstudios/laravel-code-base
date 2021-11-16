@@ -1,0 +1,28 @@
+{
+    "name": "pros/base",
+    "description": "let's build the Pros base style",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Leo",
+            "email": "leo@proteanstudios.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Pros\\CodeBase\\": "src/"
+        }
+    },
+    "require": {
+        "illuminate/support": "^8.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Pros\\CodeBase\\ServiceProvider"
+            ]
+        }
+    }
+}

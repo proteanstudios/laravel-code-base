@@ -1,0 +1,13 @@
+<?php
+
+namespace {{ namespace }};
+
+use Illuminate\Support\Collection;
+
+class {{ class }} extends BaseRepository
+{
+    public function __construct() 
+    {
+        parent::__construct();
+    }
+}

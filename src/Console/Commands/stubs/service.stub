@@ -1,0 +1,10 @@
+<?php 
+
+namespace {{ namespace }};
+
+class {{ class }} extends BaseService
+{
+    public function __construct()
+    {
+    }
+}
