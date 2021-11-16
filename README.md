@@ -106,3 +106,10 @@ class Repostory extends BaseRepository
     }
 }
 ```
+License
+===
+MIT for a lifetime, if you got next life then you have to pay ;)
+
+Contacts
+===
+- leo@proteanstudios.com
