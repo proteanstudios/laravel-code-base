@@ -9,7 +9,7 @@
             "email": "leo@proteanstudios.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Pros\\CodeBase\\": "src/"

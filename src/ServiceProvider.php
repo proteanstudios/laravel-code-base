@@ -16,9 +16,8 @@ class ServiceProvider extends IlluminateServiceProvider
      */
     public function boot()
     {
-        if ($this->app->runningInConsole()) {
-            $this->registerCommands();
-        }
+        $this->registerCommands();
+        $this->configurePublishing();
     }
 
     /**
@@ -58,7 +57,7 @@ class ServiceProvider extends IlluminateServiceProvider
     {
         if ($this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__ . '/../config' => $this->app->basePath('config'),
+                __DIR__ . '/config' => $this->app->basePath('config'),
             ], ['pros-base', 'config']);
         }
     }

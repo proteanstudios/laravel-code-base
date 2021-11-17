@@ -2,7 +2,7 @@
 
 namespace {{ namespace }};
 
-class {{ class }} extends BaseService
+class {{ class }}
 {
     public function __construct()
     {
