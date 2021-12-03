@@ -3,6 +3,7 @@
 namespace {{ namespace }};
 
 use Illuminate\Support\Collection;
+use Pros\CodeBase\Repositories\BaseRepository;
 
 class {{ class }} extends BaseRepository
 {
